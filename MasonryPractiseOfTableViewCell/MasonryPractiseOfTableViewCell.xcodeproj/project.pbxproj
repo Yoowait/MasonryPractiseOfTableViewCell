@@ -137,6 +137,7 @@
 				TargetAttributes = {
 					4011F8C91CABB8B00067B2D8 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = M46VZS9P8Z;
 					};
 				};
 			};
@@ -337,10 +338,12 @@
 			baseConfigurationReference = 7B46DBEC1545FB1F74F15E39 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MasonryPractiseOfTableViewCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.personnal..MasonryPractiseOfTableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,10 +352,12 @@
 			baseConfigurationReference = FEF21D2A082D18C2C7153BB0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MasonryPractiseOfTableViewCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.personnal..MasonryPractiseOfTableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
